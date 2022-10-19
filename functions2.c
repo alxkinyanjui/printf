@@ -10,7 +10,8 @@
  * @precision: Precision specification
  * @size: Size specifier
  * Return: Number of chars printed.
- */
+*/
+
 int print_pointer(va_list types, char buffer[],
 	int flags, int width, int precision, int size)
 {
@@ -62,7 +63,8 @@ int print_pointer(va_list types, char buffer[],
  * @precision: Precision specification
  * @size: Size specifier
  * Return: Number of chars printed
- */
+*/
+
 int print_non_printable(va_list types, char buffer[],
 	int flags, int width, int precision, int size)
 {
@@ -102,7 +104,7 @@ int print_non_printable(va_list types, char buffer[],
  * @precision: Precision specification
  * @size: Size specifier
  * Return: Numbers of chars printed
- */
+*/
 
 int print_reverse(va_list types, char buffer[],
 	int flags, int width, int precision, int size)
@@ -135,6 +137,7 @@ int print_reverse(va_list types, char buffer[],
 	}
 	return (count);
 }
+
 /************************* PRINT A STRING IN ROT13 *************************/
 /**
  * print_rot13string - Print a string in rot13.
@@ -145,7 +148,8 @@ int print_reverse(va_list types, char buffer[],
  * @precision: Precision specification
  * @size: Size specifier
  * Return: Numbers of chars printed
- */
+*/
+
 int print_rot13string(va_list types, char buffer[],
 	int flags, int width, int precision, int size)
 {
